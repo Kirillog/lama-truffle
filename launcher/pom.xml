@@ -42,8 +42,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.oracle</groupId>
-    <artifactId>simplelanguage-parent</artifactId>
+    <groupId>ru.mkn</groupId>
+    <artifactId>lama-parent</artifactId>
     <version>${graalvm.version}</version>
   </parent>
   <artifactId>launcher</artifactId>
@@ -83,8 +83,8 @@
       <version>${graalvm.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.oracle</groupId>
-      <artifactId>simplelanguage</artifactId>
+      <groupId>ru.mkn</groupId>
+      <artifactId>lama</artifactId>
       <version>${graalvm.version}</version>
       <scope>runtime</scope>
     </dependency>
